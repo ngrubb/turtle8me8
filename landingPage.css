@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+html { 
+	background: url(turtleBurger2.jpg)
+}
+
+h1{
+	font-family: 'Bangers', cursive;
+	font-size:80px;
+	color: #FFF;
+	margin: 0px 150px 170px;
+}
+
+h2 {
+	font-family: 'Bangers', cursive;
+	font-size: 26px;
+	color: #fff;
+	margin: 30px;
+	letter-spacing: 2px;
+}
+
+h3{
+	font-family: 'Unkempt', cursive;
+	font-size:30px;
+	color: #FFF;
+	margin: 40px 100px 0px;
+}
+
+#portal {
+	width: 450px;
+	height: 120px;
+	padding: 3px;
+	background-image: url(bg.jpg);
+	margin: 78px 60px;
+	-webkit-box-shadow: 6px 6px 6px rgba(0,0,0,0.75);
+	opacity: .75;
+}
+
+#portal:hover {
+	opacity: .99;
+}
+
+#c104 {
+	width: 450px;
+	height: 120px;	
+	background:url(cplusplus.png);
+	
+}
+
+#xFiles {
+	width: 450px;
+	height: 120px;	
+	background: url(xfilesLink.jpg);
+	position: relative;
+	
+}
+
+
+.ribbon-wrapper-green {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+.ribbon-green {
+  font: bold 7px Verdana;
+  color: #333;
+  text-align: center;
+  text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform:    rotate(45deg);
+  -ms-transform:     rotate(45deg);
+  -o-transform:      rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  background-color: #BFDC7A;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45));
+  background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45);
+  background-image:    -moz-linear-gradient(top, #BFDC7A, #8EBF45);
+  background-image:     -ms-linear-gradient(top, #BFDC7A, #8EBF45);
+  background-image:      -o-linear-gradient(top, #BFDC7A, #8EBF45);
+  color: #6a6340;
+  -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+  box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.ribbon-green:before, .ribbon-green:after {
+  content: "";
+  border-top:   3px solid #6e8900;
+  border-left:  3px solid transparent;
+  border-right: 3px solid transparent;
+  position:absolute;
+  bottom: -3px;
+}
+
+.ribbon-green:before {
+  left: 0;
+}
+.ribbon-green:after {
+  right: 0;
+}​
+
+#test {
+	margin: 0px 10px 0px 300px;
+}
+
+#test a:link {
+	color: #000;
+}
+
+#test a:visited {
+	color: #000;
+}
+
+.nav-collapse {
+  margin: 0 10px;
+}
